@@ -1,0 +1,146 @@
+.header{
+    display: flex;
+    display: grid;
+    text-align: center;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header.head{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    text-align: right;
+    align-self: flex-start;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    gap: 100px;
+    margin-right: 100px;
+}
+
+.hero{
+    background-color: #1f2937;
+    margin: 80px;
+    padding: 10px;
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    text-align: right;
+}
+
+.hero.main{
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+article {
+    display: flex;
+    display: block;
+    flex-direction: row;
+    text-align: left;
+}
+
+.hero.sec{
+    text-align: left;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 15px;
+    border: transparent;
+    font-size: 20px;
+    margin-left: 256px;
+}
+
+button:hover{
+    background-color: lightblue;
+    border-radius: 20px;
+    font-size: 21px;
+    border: transparent;
+}
+
+img {
+    align-self: flex-end;
+    flex: 1, 1, auto;
+    width: 20px;
+    height: auto;
+}
+
+.main{
+    margin: 80px;
+    text-align: center;
+}
+
+.main.text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.subject.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject.img{
+    border-radius: 15px;
+    border-color: #3882f6;
+    border: 10px;
+    text-align: center;
+}
+
+.subject.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#thor{
+    text-align: left;
+    font-weight: 800;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    margin: 20px;
+    padding: 30px;
+}
